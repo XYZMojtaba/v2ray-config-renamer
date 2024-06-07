@@ -6,7 +6,7 @@ This script allows you to batch rename V2Ray configurations and save them to a n
 
 To use this script, follow the steps below:
 
-1. **Navigate to the Download Folder**: Before running the script, change directory to the folder containing your input file. For example, if your input file is located in the Download folder, run the following command:
+1. **Navigate to the Input File Folder**: Before running the script, change directory to the folder containing your input file. For example, if your input file is located in the Download folder, run the following command:
 
     ```sh
     cd ~/storage/shared/Download
