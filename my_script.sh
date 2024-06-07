@@ -10,4 +10,4 @@ curl -O https://raw.githubusercontent.com/XYZMojtaba/v2ray-config-renamer/main/r
 chmod +x rename_v2ray_configs.sh
 
 # Run the script
-./rename_v2ray_configs.sh
+sh ./rename_v2ray_configs.sh
