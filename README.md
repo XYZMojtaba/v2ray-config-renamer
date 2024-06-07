@@ -15,7 +15,7 @@ To use this script, follow the steps below:
 2. **Download and Run the Script**: After navigating to the correct directory, download and run the script using the following command:
 
     ```sh
-    curl -O https://raw.githubusercontent.com/XYZMojtaba/v2ray-config-renamer/main/rename_v2ray_configs.sh && bash rename_v2ray_configs.sh
+    curl -O https://raw.githubusercontent.com/XYZMojtaba/v2ray-config-renamer/main/my_script.sh && bash my_script.sh
     ```
 
     This command will download the script and execute it.
