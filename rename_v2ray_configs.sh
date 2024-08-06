@@ -24,7 +24,7 @@ fi
 # Process the input file and rename the configs
 while IFS= read -r line
 do
-    if [[ "$line" == *"#"* ]]; then
+    if echo "$line" | grep -q "#"; then
         # Line contains a config name, rename it
         new_line=$(echo "$line" | sed "s/#.*/#$new_name/")
     else
