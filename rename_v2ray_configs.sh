@@ -24,8 +24,13 @@ fi
 # Process the input file and rename the configs
 while IFS= read -r line
 do
-    # Rename the config
-    new_line=$(echo "$line" | sed "s/#.*/#$new_name/")
+    if [[ "$line" == \#* ]]; then
+        # Line contains a comment (config name), rename it
+        new_line=$(echo "$line" | sed "s/#.*/#$new_name/")
+    else
+        # Line does not contain a comment, add the new config name
+        new_line="#$new_name"
+    fi
     echo "$new_line" >> "$output_file"
 done < "$input_file"
 
